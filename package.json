@@ -1,12 +1,18 @@
 {
-	"name": "jsdoc-boilerplate",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"docs": "jsdoc -c jsdoc.json"
-	},
-	"devDependencies": {
-		"jsdoc": "^3.6.11"
-	}
+  "name": "jsdoc-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.json",
+    "prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.11",
+    "prettier": "^2.7.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  }
 }

@@ -4,7 +4,7 @@
  * @param {string} title - The title of the book.
  * @param {string} author - The author of the book.
  */
-function Book(title, author) {}
+function Book(title, author)   {}
 
 /**
  * Both of these will link to the bar function.
@@ -32,8 +32,8 @@ function DairyProduct() {}
  * @return {boolean}
  */
 DairyProduct.prototype.isSolid = function () {
-	throw new Error('must be implemented by subclass!');
-};
+  throw new Error('must be implemented by subclass!')
+}
 
 /**
  * Cool, refreshing milk.
@@ -47,5 +47,5 @@ function Milk() {}
  * @return {boolean} Always returns false.
  */
 Milk.prototype.isSolid = function () {
-	return false;
-};
+  return false
+}
